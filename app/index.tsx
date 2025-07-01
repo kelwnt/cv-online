@@ -119,7 +119,7 @@ export default function HomeScreen() {
       </View>
 
 
-            {/* Seção: Idiomas */}
+                  {/* Seção: Idiomas */}
       <View style={styles.languagesSection}>
         <Text style={styles.sectionTitle}>Idiomas</Text>
 
@@ -135,8 +135,59 @@ export default function HomeScreen() {
           </View>
         </View>
 
+        <View style={styles.languageItem}>
+          <Text style={styles.languageLabel}>🇪🇸 Espanhol</Text>
+          <View style={styles.dotsRow}>
+            {[1, 2, 3, 4, 5].map((i) => (
+              <View
+                key={i}
+                style={[styles.dot, i <= 3 ? styles.dotFilled : styles.dotEmpty]}
+              />
+            ))}
+          </View>
+        </View>
 
-            {/* Seção: Idiomas com gráfico circular */}
+        <View style={styles.languageItem}>
+          <Text style={styles.languageLabel}>🇧🇷 Português</Text>
+          <View style={styles.dotsRow}>
+            {[1, 2, 3, 4, 5].map((i) => (
+              <View
+                key={i}
+                style={[styles.dot, styles.dotFilled]}
+              />
+            ))}
+          </View>
+        </View>
+      </View>
+
+
+        <View style={styles.languageItem}>
+          <Text style={styles.languageLabel}>🇪🇸 Espanhol</Text>
+          <View style={styles.dotsRow}>
+            {[1, 2, 3, 4, 5].map((i) => (
+              <View
+                key={i}
+                style={[styles.dot, i <= 3 ? styles.dotFilled : styles.dotEmpty]}
+              />
+            ))}
+          </View>
+        </View>
+
+        <View style={styles.languageItem}>
+          <Text style={styles.languageLabel}>🇧🇷 Português</Text>
+          <View style={styles.dotsRow}>
+            {[1, 2, 3, 4, 5].map((i) => (
+              <View
+                key={i}
+                style={[styles.dot, styles.dotFilled]}
+              />
+            ))}
+          </View>
+        </View>
+      </View>
+
+
+      {/* Seção: Idiomas com gráfico circular */}
 <View style={styles.languagesSection}>
   <Text style={styles.sectionTitle}>Idiomas</Text>
 
@@ -188,31 +239,6 @@ export default function HomeScreen() {
   </View>
 </View>
 
-        <View style={styles.languageItem}>
-          <Text style={styles.languageLabel}>🇪🇸 Espanhol</Text>
-          <View style={styles.dotsRow}>
-            {[1, 2, 3, 4, 5].map((i) => (
-              <View
-                key={i}
-                style={[styles.dot, i <= 3 ? styles.dotFilled : styles.dotEmpty]}
-              />
-            ))}
-          </View>
-        </View>
-
-        <View style={styles.languageItem}>
-          <Text style={styles.languageLabel}>🇧🇷 Português</Text>
-          <View style={styles.dotsRow}>
-            {[1, 2, 3, 4, 5].map((i) => (
-              <View
-                key={i}
-                style={[styles.dot, styles.dotFilled]}
-              />
-            ))}
-          </View>
-        </View>
-      </View>
-
 
           <View style={styles.contactSection}>
             <Text style={styles.contactTitle}>Contato</Text>
@@ -222,7 +248,6 @@ export default function HomeScreen() {
           </View>
         </View>
       </View>
-    </View>
     
   );
 
@@ -377,7 +402,7 @@ const styles = StyleSheet.create({
   dotEmpty: {
     backgroundColor: '#ccc',
   },
-    languagesSection: {
+   languagesSection: {
     marginTop: 30,
   },
   languagesRow: {
