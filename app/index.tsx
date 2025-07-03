@@ -47,7 +47,7 @@ export default function HomeScreen() {
             <View style={styles.contactSection}>
               <Text style={styles.contactTitle}>Contato</Text>
               <Text style={styles.contactText}>Email: raquelwendt24@gmail.com</Text>
-              <Text style={styles.contactText}>Telefone: +55 (51) 99854-6943</Text>
+              <Text style={styles.contactText}>Telefone: (51) 998546943</Text>
             </View>
           </View>
         </View>
@@ -216,7 +216,7 @@ export default function HomeScreen() {
                   </View>
                 </Text>
                 <Text style={styles.modalText}>
-                  Cconsegue se comunicar e entender no ambiente profissional e técnico.
+                  Consigo entender e me comunicar com pessoas de fora
                 </Text>
               </View>
 
@@ -231,7 +231,7 @@ export default function HomeScreen() {
                 </Text>
 
                 <Text style={styles.modalText}>
-                  Nativo: completo domínio da língua materna.
+                  Língua nativa
                 </Text>
               </View>
             </View>

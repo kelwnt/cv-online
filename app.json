@@ -15,8 +15,7 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/cv-online.png",
         "backgroundColor": "#ffffff"
-      },
-      "package": "com.willianwa8.cvonline"
+      }
     },
     "web": {
       "bundler": "metro",
@@ -37,14 +36,6 @@
     ],
     "experiments": {
       "typedRoutes": true
-    },
-    "extra": {
-      "router": {
-        "origin": false
-      },
-      "eas": {
-        "projectId": "348ececa-9be1-4033-806b-9a263312c0dd"
-      }
     }
   }
 }
